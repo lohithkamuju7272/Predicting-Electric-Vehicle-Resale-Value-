@@ -11,7 +11,7 @@ A structured dataset of 3,000 electric vehicles with 25 characteristics is used 
 We assessed four regression models. Because of its better generalisation on unknown data, Gradient Boosting turned out to be the most reliable for practical use, even though Random Forest demonstrated the best training fit.
 | Model | Test $R^2$ | Test RMSE (USD) | Status |
 | :--- | :--- | :--- | :--- |
-| **Gradient Boosting** | **0.7617** | **$2,702.87** | **Best Generalizer** |
-| Random Forest | 0.7479 | $2,779.80 | High Training Fit |
-| Linear Regression | 0.7303 | $2,875.22 | Stable/Baseline |
-| SVR | 0.0900 | $5280.17 | Poor Performance |
+| **Gradient Boosting** | **0.7617** | **2,702.87** | **Best Generalizer** |
+| Random Forest | 0.7479 | 2,779.80 | High Training Fit |
+| Linear Regression | 0.7303 | 2,875.22 | Stable/Baseline |
+| SVR | 0.0900 | 5280.17 | Poor Performance |
